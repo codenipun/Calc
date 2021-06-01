@@ -9,443 +9,481 @@
     <TextView
         android:id="@+id/secondaryTv"
         android:layout_width="match_parent"
-        android:layout_height="90dp"
+        android:layout_height="117dp"
         android:gravity="bottom"
         android:maxLines="1"
         android:padding="10dp"
         android:paddingTop="30dp"
-        android:text="nipun"
+        android:cursorVisible="true"
         android:textAlignment="viewEnd"
         android:textColor="@color/black"
-        android:textSize="15sp"
+        android:textSize="30sp"
         tools:ignore="RtlCompat">
     </TextView>
 
     <TextView
         android:id="@+id/primaryTv"
         android:layout_width="match_parent"
-        android:layout_height="130dp"
+        android:layout_height="175dp"
         android:gravity="bottom"
         android:maxLines="1"
         android:padding="10dp"
         android:paddingTop="30dp"
-        android:text="nipun"
         android:textAlignment="viewEnd"
         android:layout_below="@+id/secondaryTv"
         android:textColor="@color/black"
-        android:textSize="25sp"
+        android:textSize="50sp"
         tools:ignore="RtlCompat">
     </TextView>
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="511dp"
         android:layout_below="@id/primaryTv"
-        app:cardCornerRadius="4dp"
         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        app:cardCornerRadius="4dp"
         app:cardElevation="2dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="5dp"
             android:weightSum="7">
+
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_height="match_parent"
                 android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
                 android:weightSum="4">
+
                 <Button
                     android:id="@+id/buttonAc"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textColor="#FF0000"
-                    android:textSize="20dp"
+                    android:background="@drawable/rounded_button"
                     android:text="AC"
-                    >
+                    android:textColor="#FF0000"
+                    android:textSize="20dp">
 
                 </Button>
+
                 <Button
                     android:id="@+id/buttonC"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
-
                     android:layout_weight="1"
-                    android:textColor="@color/black"
+                    android:background="@drawable/rounded_button"
                     android:text="C"
+                    android:textColor="@color/black"
                     android:textSize="20dp">
+
                 </Button>
+
                 <Button
                     android:id="@+id/buttonopenbrace"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textColor="@color/black"
+                    android:background="@drawable/rounded_button"
                     android:text="("
+                    android:textColor="@color/black"
                     android:textSize="20dp">
+
                 </Button>
+
                 <Button
                     android:id="@+id/buttonclosebrace"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textColor="@color/black"
+                    android:background="@drawable/rounded_button"
                     android:text=")"
-                    android:textSize="20dp">
-                </Button>
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></Button>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_height="match_parent"
                 android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="5">
 
-                android:weightSum="5"
-                >
                 <Button
                     android:id="@+id/buttonsin"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textSize="18dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="sin"
                     android:textAllCaps="false"
                     android:textColor="@color/black"
-                    android:text="sin">
-                </Button>
+                    android:textSize="18dp"></Button>
+
                 <Button
                     android:id="@+id/buttoncos"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textSize="18dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="cos"
                     android:textAllCaps="false"
                     android:textColor="@color/black"
-                    android:text="cos">
-                </Button>
+                    android:textSize="18dp"></Button>
+
                 <Button
                     android:id="@+id/buttontan"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textAllCaps="false"
-                    android:textSize="18dp"
                     android:background="@drawable/rounded_button"
+                    android:text="tan"
+                    android:textAllCaps="false"
                     android:textColor="@color/black"
-                    android:text="tan">
-                </Button>
+                    android:textSize="18dp"></Button>
+
                 <Button
                     android:id="@+id/buttonlog"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textAllCaps="false"
-                    android:textSize="18dp"
                     android:background="@drawable/rounded_button"
+                    android:text="log"
+                    android:textAllCaps="false"
                     android:textColor="@color/black"
-                    android:text="log">
+                    android:textSize="18dp">
 
                 </Button>
+
                 <Button
                     android:id="@+id/buttonln"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textSize="18dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="ln"
                     android:textAllCaps="false"
                     android:textColor="@color/black"
-                    android:text="ln">
-                </Button>
+                    android:textSize="18dp"></Button>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_height="match_parent"
                 android:layout_margin="5dp"
-                android:weightSum="5"
-                >
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
                 <Button
                     android:id="@+id/buttoninverse"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textColor="@color/black"
-                    android:text="1/x">
-                </Button>
+                    android:background="@drawable/rounded_button"
+                    android:text="1/x"
+                    android:textColor="@color/black"></Button>
+
                 <Button
                     android:id="@+id/buttonroot"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textColor="@color/black"
-                    android:text="√">
-                </Button>
+                    android:background="@drawable/rounded_button"
+                    android:text="√"
+                    android:textColor="@color/black"></Button>
+
                 <Button
                     android:id="@+id/buttonsquare"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textColor="@color/black"
                     android:background="@drawable/rounded_button"
-                    android:text="x²">
+                    android:text="x²"
+                    android:textColor="@color/black">
                 </Button>
+
                 <Button
                     android:id="@+id/buttonfactorial"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textColor="@color/black"
                     android:background="@drawable/rounded_button"
-                    android:text="x!">
+                    android:text="x!"
+                    android:textColor="@color/black">
 
                 </Button>
+
                 <Button
                     android:id="@+id/buttondivision"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textColor="@color/black"
-                    android:text="/">
+                    android:background="@drawable/rounded_button"
+                    android:text="/"
+                    android:textColor="@color/black">
                 </Button>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:layout_margin="5dp"
+                android:orientation="horizontal"
+
+
                 android:weightSum="4">
+
                 <Button
                     android:id="@+id/button7"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textSize="20dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="7"
                     android:textColor="@color/black"
-                    android:text="7">
+                    android:textSize="20dp">
 
                 </Button>
+
                 <Button
                     android:id="@+id/button8"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
-                    android:textSize="20dp"
-                    android:textColor="@color/black"
                     android:layout_weight="1"
-                    android:text="8">
+                    android:background="@drawable/rounded_button"
+                    android:text="8"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
                 </Button>
+
                 <Button
                     android:id="@+id/button9"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
-                    android:textSize="20dp"
                     android:layout_weight="1"
+                    android:background="@drawable/rounded_button"
+                    android:text="9"
                     android:textColor="@color/black"
-                    android:text="9">
+                    android:textSize="20dp">
                 </Button>
+
                 <Button
                     android:id="@+id/buttonmultiply"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textSize="20dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="x"
                     android:textColor="@color/black"
-                    android:text="x">
+                    android:textSize="20dp">
                 </Button>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:layout_margin="5dp"
+                android:orientation="horizontal"
                 android:weightSum="4">
                 <Button
                     android:id="@+id/button4"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
-                    android:textColor="@color/black"
                     android:layout_weight="1"
-                    android:textSize="20dp"
-                    android:text="4">
-
+                    android:background="@drawable/rounded_button"
+                    android:text="4"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
                 </Button>
+
                 <Button
                     android:id="@+id/button5"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textSize="20dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="5"
                     android:textColor="@color/black"
-                    android:text="5">
+                    android:textSize="20dp">
                 </Button>
+
                 <Button
                     android:id="@+id/button6"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
+                    android:background="@drawable/rounded_button"
+                    android:text="6"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
-                    android:text="6">
+                    android:textSize="20dp">
                 </Button>
+
                 <Button
                     android:id="@+id/buttonsubtract"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textSize="20dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="-"
                     android:textColor="@color/black"
-                    android:text="-">
+                    android:textSize="20dp">
                 </Button>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:layout_margin="5dp"
+                android:orientation="horizontal"
                 android:weightSum="4">
+
                 <Button
                     android:id="@+id/button1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
+                    android:background="@drawable/rounded_button"
+                    android:text="1"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
-                    android:text="1">
+                    android:textSize="20dp">
 
                 </Button>
+
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textSize="20dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="2"
                     android:textColor="@color/black"
-                    android:text="2">
+                    android:textSize="20dp">
+
                 </Button>
+
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textSize="20dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="3"
                     android:textColor="@color/black"
-                    android:text="3">
+                    android:textSize="20dp">
+
                 </Button>
+
                 <Button
                     android:id="@+id/buttonadd"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textSize="20dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="+"
+
                     android:textColor="@color/black"
-                    android:text="+">
+                    android:textSize="20dp">
+
                 </Button>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:layout_margin="5dp"
+                android:orientation="horizontal"
                 android:weightSum="4">
+
                 <Button
                     android:id="@+id/buttonpie"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textSize="20dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="π"
                     android:textColor="@color/black"
-                    android:text="π">
+                    android:textSize="20dp">
 
                 </Button>
+
                 <Button
                     android:id="@+id/button0"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    android:textSize="20dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="0"
                     android:textColor="@color/black"
-                    android:text="0">
+                    android:textSize="20dp">
+
                 </Button>
+
                 <Button
                     android:id="@+id/buttondot"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
+                    android:background="@drawable/rounded_button"
                     android:text="."
                     android:textColor="@color/black"
                     android:textSize="20dp">
+
                 </Button>
+
                 <Button
                     android:id="@+id/buttonequals"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/rounded_button"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
+                    android:background="@drawable/rounded_button"
+                    android:text="="
+                    android:textColor="@color/white"
                     android:textSize="20dp"
-                    android:textColor="@color/black"
-                    android:text="=">
+                   >
+
                 </Button>
 
             </LinearLayout>
