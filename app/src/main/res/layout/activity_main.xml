@@ -56,8 +56,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
-                android:orientation="horizontal"
                 android:layout_weight="1"
+                android:orientation="horizontal"
                 android:weightSum="4">
 
                 <Button
@@ -69,7 +69,8 @@
                     android:background="@drawable/rounded_button"
                     android:text="AC"
                     android:textColor="#FF0000"
-                    android:textSize="20dp">
+                    android:textSize="20dp"
+                    android:theme="@style/Theme.buttonGrey">
 
                 </Button>
 
@@ -81,8 +82,9 @@
                     android:layout_weight="1"
                     android:background="@drawable/rounded_button"
                     android:text="C"
-                    android:textColor="@color/black"
-                    android:textSize="20dp">
+                    android:textColor="#339133"
+                    android:textSize="20dp"
+                    android:theme="@style/Theme.buttonGrey">
 
                 </Button>
 
@@ -94,8 +96,9 @@
                     android:layout_weight="1"
                     android:background="@drawable/rounded_button"
                     android:text="("
-                    android:textColor="@color/black"
-                    android:textSize="20dp">
+                    android:textColor="#339133"
+                    android:textSize="20dp"
+                    android:theme="@style/Theme.buttonGrey">
 
                 </Button>
 
@@ -107,16 +110,17 @@
                     android:layout_weight="1"
                     android:background="@drawable/rounded_button"
                     android:text=")"
-                    android:textColor="@color/black"
-                    android:textSize="20dp"></Button>
+                    android:textColor="#339133"
+                    android:textSize="20dp"
+                    android:theme="@style/Theme.buttonGrey"></Button>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
-                android:orientation="horizontal"
                 android:layout_weight="1"
+                android:orientation="horizontal"
                 android:weightSum="5">
 
                 <Button
@@ -129,7 +133,8 @@
                     android:text="sin"
                     android:textAllCaps="false"
                     android:textColor="@color/black"
-                    android:textSize="18dp"></Button>
+                    android:textSize="18dp"
+                    android:theme="@style/Theme.buttonGrey"></Button>
 
                 <Button
                     android:id="@+id/buttoncos"
@@ -141,7 +146,8 @@
                     android:text="cos"
                     android:textAllCaps="false"
                     android:textColor="@color/black"
-                    android:textSize="18dp"></Button>
+                    android:textSize="18dp"
+                    android:theme="@style/Theme.buttonGrey"></Button>
 
                 <Button
                     android:id="@+id/buttontan"
@@ -153,7 +159,8 @@
                     android:text="tan"
                     android:textAllCaps="false"
                     android:textColor="@color/black"
-                    android:textSize="18dp"></Button>
+                    android:textSize="18dp"
+                    android:theme="@style/Theme.buttonGrey"></Button>
 
                 <Button
                     android:id="@+id/buttonlog"
@@ -165,7 +172,8 @@
                     android:text="log"
                     android:textAllCaps="false"
                     android:textColor="@color/black"
-                    android:textSize="18dp">
+                    android:textSize="18dp"
+                    android:theme="@style/Theme.buttonGrey">
 
                 </Button>
 
@@ -178,9 +186,11 @@
                     android:background="@drawable/rounded_button"
                     android:text="ln"
                     android:textAllCaps="false"
-                    android:textColor="@color/black"
-                    android:textSize="18dp"></Button>
+                    android:textColor="#339133"
+                    android:textSize="18dp"
+                    android:theme="@style/Theme.buttonGrey"></Button>
             </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -188,6 +198,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
+                android:theme="@style/Theme.buttonGrey"
                 android:weightSum="5">
 
                 <Button
@@ -198,7 +209,8 @@
                     android:layout_weight="1"
                     android:background="@drawable/rounded_button"
                     android:text="1/x"
-                    android:textColor="@color/black"></Button>
+                    android:textColor="@color/black"
+                    android:theme="@style/Theme.buttonGrey"></Button>
 
                 <Button
                     android:id="@+id/buttonroot"
@@ -208,7 +220,8 @@
                     android:layout_weight="1"
                     android:background="@drawable/rounded_button"
                     android:text="√"
-                    android:textColor="@color/black"></Button>
+                    android:textColor="@color/black"
+                    android:theme="@style/Theme.buttonGrey"></Button>
 
                 <Button
                     android:id="@+id/buttonsquare"
@@ -218,8 +231,8 @@
                     android:layout_weight="1"
                     android:background="@drawable/rounded_button"
                     android:text="x²"
-                    android:textColor="@color/black">
-                </Button>
+                    android:textColor="@color/black"
+                    android:theme="@style/Theme.buttonGrey"></Button>
 
                 <Button
                     android:id="@+id/buttonfactorial"
@@ -241,16 +254,16 @@
                     android:layout_weight="1"
                     android:background="@drawable/rounded_button"
                     android:text="/"
-                    android:textColor="@color/black">
-                </Button>
+                    android:textColor="#339133"></Button>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_margin="5dp"
+                android:layout_weight="1"
                 android:orientation="horizontal"
+                android:theme="@style/Theme.buttonGrey"
 
 
                 android:weightSum="4">
@@ -277,8 +290,7 @@
                     android:background="@drawable/rounded_button"
                     android:text="8"
                     android:textColor="@color/black"
-                    android:textSize="20dp">
-                </Button>
+                    android:textSize="20dp"></Button>
 
                 <Button
                     android:id="@+id/button9"
@@ -289,8 +301,7 @@
                     android:background="@drawable/rounded_button"
                     android:text="9"
                     android:textColor="@color/black"
-                    android:textSize="20dp">
-                </Button>
+                    android:textSize="20dp"></Button>
 
                 <Button
                     android:id="@+id/buttonmultiply"
@@ -300,19 +311,20 @@
                     android:layout_weight="1"
                     android:background="@drawable/rounded_button"
                     android:text="x"
-                    android:textColor="@color/black"
-                    android:textSize="20dp">
-                </Button>
+                    android:textColor="#339133"
+                    android:textSize="20dp"></Button>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_margin="5dp"
+                android:layout_weight="1"
                 android:orientation="horizontal"
+                android:theme="@style/Theme.buttonGrey"
                 android:weightSum="4">
+
                 <Button
                     android:id="@+id/button4"
                     android:layout_width="0dp"
@@ -322,8 +334,7 @@
                     android:background="@drawable/rounded_button"
                     android:text="4"
                     android:textColor="@color/black"
-                    android:textSize="20dp">
-                </Button>
+                    android:textSize="20dp"></Button>
 
                 <Button
                     android:id="@+id/button5"
@@ -334,8 +345,7 @@
                     android:background="@drawable/rounded_button"
                     android:text="5"
                     android:textColor="@color/black"
-                    android:textSize="20dp">
-                </Button>
+                    android:textSize="20dp"></Button>
 
                 <Button
                     android:id="@+id/button6"
@@ -346,8 +356,7 @@
                     android:background="@drawable/rounded_button"
                     android:text="6"
                     android:textColor="@color/black"
-                    android:textSize="20dp">
-                </Button>
+                    android:textSize="20dp"></Button>
 
                 <Button
                     android:id="@+id/buttonsubtract"
@@ -357,18 +366,18 @@
                     android:layout_weight="1"
                     android:background="@drawable/rounded_button"
                     android:text="-"
-                    android:textColor="@color/black"
-                    android:textSize="20dp">
-                </Button>
+                    android:textColor="#339133"
+                    android:textSize="20dp"></Button>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_margin="5dp"
+                android:layout_weight="1"
                 android:orientation="horizontal"
+                android:theme="@style/Theme.buttonGrey"
                 android:weightSum="4">
 
                 <Button
@@ -418,8 +427,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/rounded_button"
                     android:text="+"
-
-                    android:textColor="@color/black"
+                    android:textColor="#339133"
                     android:textSize="20dp">
 
                 </Button>
@@ -428,8 +436,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_margin="5dp"
+                android:layout_weight="1"
                 android:orientation="horizontal"
                 android:weightSum="4">
 
@@ -442,7 +450,8 @@
                     android:background="@drawable/rounded_button"
                     android:text="π"
                     android:textColor="@color/black"
-                    android:textSize="20dp">
+                    android:textSize="20dp"
+                    android:theme="@style/Theme.buttonGrey">
 
                 </Button>
 
@@ -455,7 +464,8 @@
                     android:background="@drawable/rounded_button"
                     android:text="0"
                     android:textColor="@color/black"
-                    android:textSize="20dp">
+                    android:textSize="20dp"
+                    android:theme="@style/Theme.buttonGrey">
 
                 </Button>
 
@@ -468,7 +478,8 @@
                     android:background="@drawable/rounded_button"
                     android:text="."
                     android:textColor="@color/black"
-                    android:textSize="20dp">
+                    android:textSize="20dp"
+                    android:theme="@style/Theme.buttonGrey">
 
                 </Button>
 
@@ -476,13 +487,17 @@
                     android:id="@+id/buttonequals"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/rounded_button"
                     android:text="="
                     android:textColor="@color/white"
-                    android:textSize="20dp"
-                   >
+                    android:textSize="33dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+
+                    >
 
                 </Button>
 
